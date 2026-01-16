@@ -36,7 +36,7 @@ const HowItWorks: React.FC = () => {
                             {[
                                 t('توليد فواتير XML بضغطة زر', 'Génération de factures XML en un clic'),
                                 t('تحقق آلي من الأخطاء الجبائية', 'Vérification automatique des erreurs fiscales'),
-                                t('ربط مباشر وآمن مع منصة تاج', 'Connexion directe et sécurisée avec la plateforme TEJ')
+                                t('ربط مباشر وآمن مع منصة TTN', 'Connexion directe et sécurisée avec la plateforme TTN')
                             ].map((item, index) => (
                                 <li key={index} className="flex items-center gap-3 text-slate-700 font-medium">
                                     <CheckCircle className="text-green-500 shrink-0" size={20} />

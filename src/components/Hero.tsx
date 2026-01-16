@@ -36,8 +36,8 @@ const Hero: React.FC = () => {
 
                     <p className="text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto">
                         {t(
-                            'الـمنصة الرقمية المخصصة للفوترة الالكترونية المزودة بالذكاء الاصطناعي، الاولى من نوعها في تونس، مطابقة للقانون الجبائي ومتصلة بالمنصة تاج.',
-                            "La première plateforme digitale dédiée à la facturation électronique boostée par l'IA en Tunisie, conforme à la loi fiscale et connectée à la plateforme TEJ."
+                            'الـمنصة الرقمية المخصصة للفوترة الالكترونية المزودة بالذكاء الاصطناعي، الاولى من نوعها في تونس، مطابقة للقانون الجبائي ومتصلة بالمنصة TTN.',
+                            "La première plateforme digitale dédiée à la facturation électronique boostée par l'IA en Tunisie, conforme à la loi fiscale et connectée à la plateforme TTN."
                         )}
                     </p>
 
