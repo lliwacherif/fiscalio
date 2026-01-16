@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Font logic will be handled via Google Fonts import in index.html or here later */
+html[lang="ar"] {
+  font-family: 'Cairo', sans-serif;
+}
+
+html[lang="fr"] {
+  font-family: 'Inter', sans-serif;
+}
